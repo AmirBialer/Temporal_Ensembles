@@ -2,3 +2,5 @@ datasets
 results
 __pycache__
 .env
+.*
+!.gitignore
