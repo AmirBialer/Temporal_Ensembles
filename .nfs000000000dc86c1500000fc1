@@ -1,0 +1,25 @@
+Mon Aug 2 19:21:55 IDT 2021
+
+SLURM_JOBID:		 146955
+SLURM_JOB_NODELIST:	 cs-pheno-09 
+
+
+/home/amirbial/Computational_Learning/Scratch/train.py
+2021-08-02 19:21:57.937220: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+/home/amirbial/.conda/envs/Pi_Scratch/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+/home/amirbial/.conda/envs/Pi_Scratch/lib/python3.8/site-packages/sklearn/model_selection/_split.py:666: UserWarning: The least populated class in y has only 2 members, which is less than n_splits=10.
+  warnings.warn(("The least populated class in y has only %d"
+/home/amirbial/.conda/envs/Pi_Scratch/lib/python3.8/site-packages/sklearn/model_selection/_split.py:666: UserWarning: The least populated class in y has only 2 members, which is less than n_splits=3.
+  warnings.warn(("The least populated class in y has only %d"
+start main
+Improve =True
+arrhythmia.csv
+Traceback (most recent call last):
+  File "/home/amirbial/Computational_Learning/Scratch/train.py", line 216, in <module>
+    main()
+  File "/home/amirbial/Computational_Learning/Scratch/train.py", line 205, in main
+    results=Train_Pi_nepochs(train_labeled_dataloader, train_unlabeled_dataloader, val_labeled_dataloader,test_dataloader, criterions, args,  best_param["drop_rate"],  best_param["noise"],num_features, num_classes,start_train_time, improved=improved,X=X,y=y)
+  File "/home/amirbial/Computational_Learning/Scratch/methods.py", line 55, in Train_Pi_nepochs
+    labels=y.unique()
+AttributeError: 'numpy.ndarray' object has no attribute 'unique'
