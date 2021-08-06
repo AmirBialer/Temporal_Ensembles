@@ -8,7 +8,7 @@ And we continued with post hoc Nemenyi test and got our improved model is signif
 
 
 ## Credits
-This Repo relies on the work of [fastswa](https://github.com/benathi/fastswa-semi-sup), [freitas](https://github.com/tensorfreitas/Temporal-Ensembling-for-Semi-Supervised-Learning), and [semi-supervised-learning] (https://github.com/siit-vtt/semi-supervised-learning-pytorch).
+This Repo relies on the work of [fastswa](https://github.com/benathi/fastswa-semi-sup), [freitas](https://github.com/tensorfreitas/Temporal-Ensembling-for-Semi-Supervised-Learning), and [semi_supervised_learning](https://github.com/siit-vtt/semi-supervised-learning-pytorch).
 
 ## Preparing Packages and Data
 
